@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    width: 60%;
+    height: 80%;
+    background: url(./images/pattern-curve.svg) no-repeat left bottom, url(./images/pattern-bg.svg) no-repeat 380px 20px, white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    display: flex;
+    padding: 5%;
+    z-index: -1
+}
+
+.state {
+    width: 55%;
+    background: url(./images/pattern-quotes.svg) no-repeat 19% 19%;
+    padding: 15% 0;
+    font-size: 1.5rem;
+}
+
+.state p {
+    z-index: 1;
+    color:  hsl(240, 4%, 42%);
+}
+
+.slider {
+    width: 50%;
+    border: 1px solid black
+}
+
+.profile {
+   width: 25%;
+   height: 61%;
+   position:absolute;
+   top:20%;
+   right:27%;
+   border-radius: 5px;
+   z-index: -1;
+}
+
+.btn{
+    width: 90px;
+    height: 40px;
+    position: relative;
+    top: 110px;
+    left: 500px;
+    background: white;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border:none;
+    outline: none;
+    
+}
+
+.btn:hover{
+    cursor: pointer
+}
+
+.arrow {
+    width: 12px;
+    height: 12px
+}
+
+
+.test {
+    color: black;
+    font-size: 30px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
